@@ -1,0 +1,51 @@
+.content {
+    display: flex;
+    justify-content: center;
+    background-color: #F0F0F0;
+}
+
+.purple{
+    color: purple;
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+table th, table td {
+    border: 1px solid black;
+    padding: 5px;
+}
+table th {
+    background-color: #D3D3D3;
+    color: white;
+    padding: 10px 40px 10px 2px;
+}
+
+.buttons-td{
+    display: flex;
+    justify-content: space-around;
+}
+
+.edit-button {
+    border: none;
+    background-color: #AAA69F;
+    color: white;
+    border-radius: 3px;
+    padding: 5px 20px;
+}
+
+.edit-button a{
+    text-decoration: none;
+    color: white;
+}
+
+.delete-button {
+    border: none;
+    background-color: #69727C;
+    color: white;
+    border-radius: 3px;
+    padding: 5px 20px;
+}
+
