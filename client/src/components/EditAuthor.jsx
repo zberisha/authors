@@ -35,7 +35,7 @@ const EditAuthor = () => {
         }
         try {
         await axios.put(`http://localhost:3000/authors/${id}`, author);
-        navigate('/authors');
+        navigate('/');
         setError(null); 
     } catch (err) {
         console.error('Error updating author:', err.response?.data.message || err.message);

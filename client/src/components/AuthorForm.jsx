@@ -15,9 +15,9 @@ const AuthorForm = () => {
         setError('Author name must be at least 3 characters long');
         return;
         }
-        try {
+    try {
         await axios.post('http://localhost:3000/authors', author);
-        navigate('/authors');
+        navigate('/');
         setError(null); 
     } catch (error) {
         console.error('Error adding author:', error.response?.data.message || error.message);
